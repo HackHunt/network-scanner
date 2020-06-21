@@ -6,11 +6,10 @@
 	- MAC Address
 	- Vendor's Name
 
-#### API Used: 
+### API Used: 
 [MAC Address Lookup](https://maclookup.app/)
 
-#### Supports Platform:
-Linux, Debain
+### Supports Platform: Linux, Debain
 
 ### How to use:
 - Convert the setup.sh into executable
@@ -20,7 +19,7 @@ Linux, Debain
 - Run the Python Script with root privileges.
     > **sudo python3 network_scanner.py** 
 
-#### Available Arguments:
+### Available Arguments:
 - **-h or --help:** *Displays all the available options.*
 - **-i or --interface**: *This option needs to be used as to define for which interface 
 you want to scan the network.*
@@ -29,7 +28,7 @@ the subnet mask. Example: 192.168.0.1/24 or 10.0.0.0/8 or 172.16.0.0/12*
 
 - **Note:** You need to be connected to the network for scanning, as the program is based on ARP Request Protocol.
 
-#### Color:
+### Color:
 - **Green:** Successful.
 - **Yellow:** In process.
 - **System Color:** Result.
@@ -58,9 +57,9 @@ to scan after every ceratin of time not continously.
 - **termcolor:** The *termcolor* module is used for ANSII color formatting for
 output in terminal.
 
-#### Licensed: GNU General Public License, version 3
+### Licensed: GNU General Public License, version 3
 
-#### Developer Information:
+### Developer Information:
 - **Website:** [Hack Hunt](https://hack-hunt.blogspot.com/)
 - **Contact:** hh.hackunt@gmail.com
 - **Youtube:** [Hack Hunt](https://youtube.com/hackhunt) 
