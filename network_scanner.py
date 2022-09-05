@@ -32,7 +32,7 @@ def scan_network(ip, interface):
 
 
 def get_vendor(data):
-    url = "https://api.maclookup.app/v1/macs/"
+    url = "https://api.maclookup.app/v2/macs/"
 
     for i in range(len(data)):
         request_url = url + data[i]['mac']
